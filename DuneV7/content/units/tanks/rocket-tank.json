@@ -1,0 +1,59 @@
+{
+  "research": {
+    "requirements": [
+      "silicon/1300"
+    ]
+  },
+  "name": "Rocket Launcher",
+  "description": "The Missile Tank fires a battle support missile, similar to the Rocket Turret. The Missile Tank has long range strike capability, and although inaccurate, it fires two missiles for greater coverage, and moves faster than the heavier battle tanks."
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 368.0,
+  "maxRange": 368.0,
+  "fogRadius": 25.0,
+  "type": "tank",
+  "speed": 0.9,
+  "hitSize": 20,
+  "health": 500,
+  "flying": false,
+  "targetAir": false,
+  "faceTarget": false,
+  "rotateSpeed": 4,
+  "weapons": [
+    {
+      "name": "rocket-launcher",
+      "mirror": false,
+      "x": 0,
+      "y": 0,
+	  "shootY": 8.0,
+      "rotateSpeed": 1.5,
+      "minWarmup": 0.3,
+      "reload": 250,
+      "recoil": 1,
+      "shots": 1,
+	  "minRange": 48.0,
+      "inaccuracy": 10,
+      "rotate": true,
+      "shootSound": "rocket-tank-launch",
+	  "shoot": {
+	  "type": "ShootAlternate"
+	  "spread": 7,
+      "shots": 2,
+      "shotDelay": 20.0
+      },
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 5,
+        "lifetime": 75,
+        "damage": 125,
+        "splashDamage": 125,
+        "splashDamageRadius": 25.0,
+        "width": 10,
+        "height": 15,
+        "shootEffect": "shootBig",
+        "despawnEffect": "none",
+        "knockback": 2
+      }
+    }
+  ]
+}

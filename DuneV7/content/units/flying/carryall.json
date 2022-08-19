@@ -1,0 +1,26 @@
+{
+  "research": {
+    "requirements": [
+      "silicon/1300"
+    ]
+  },
+  "name": "Carryall",
+  "description": "The Carryall is a lightly armored aircraft with no weapons. It is able to lift and transport heavy machinery and vehicles."
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "fogRadius": 21.0,
+  "type": "payload",
+  "speed": 3,
+  "accel":  0.06,
+  "hitSize": 30,
+  "engineOffset": 10.5,
+  "engineSize": 3.0,
+  "itemCapacity": 500,
+  "payloadCapacity": 1200.0,
+  "lowAltitude": true,
+  "health": 400,
+  "drag": 0.017,
+  "isEnemy": false,
+  "flying": true,
+  "faceTarget": false
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Disabled",
+	"description": "You were successfully hit.",
+	"disarm": true,
+	"healthMultiplier": 0.5,
+	"speedMultiplier": 0.0,
+	"color": "F15454",
+	"effect": "fireHit",
+	"damageMultiplier": 2.0,
+	"damage": 2
+}

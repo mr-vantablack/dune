@@ -1,0 +1,17 @@
+{
+	"name": "Wall",
+	"description": "Walls can be used for structure enhancement and fortification purposes.",
+	"type": "Wall",
+		"craftTime": 90,
+		"buildCostMultiplier": 2,
+	"health": 600,
+	"placeSound": "place-2",
+	"destroySound": "destroy-small",
+	"placePitchChange": false,
+	"size": 1,
+	"requirements": [
+		{ "item": "spice", "amount": 10 }
+	],
+	"category": "defense",
+	"research": "router"
+}

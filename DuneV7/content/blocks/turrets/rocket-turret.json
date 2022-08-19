@@ -1,0 +1,45 @@
+{
+ "type": "itemTurret",
+ "name": "Rocket Turret",
+  "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+ "description": "An upgraded version of the standard Turret, the missile turret also has long range, high explosive projectiles. The additional missile launchers are attached to the head of the turret.",
+ "targetAir": true,
+ "targetGround": true,
+ "health": 1500,
+ "size": 2,
+ "inaccuracy": 1.0,
+ "ammoPerShot": 5,
+ "reload": 100,
+ "recoil": 1,
+ "rotateSpeed": 3,
+ 	  "shoot": {
+	  "type": "ShootAlternate"
+	  "spread": 10,
+      "shots": 2,
+      "shotDelay": 20.0
+      },
+ "shotWith": 3,
+ "range": 240,
+ "maxAmmo":100,
+ "ammoTypes": {
+     "spice": {
+        "Type": "missileBulletType",
+        "damage": 150,
+		"splashDamage": 25,
+        "splashDamageRadius": 35.0,
+		"ammoMultiplier": 2.0,
+        "lifetime": 65,
+        "speed": 4,
+		"hitSound": "explosion"
+     } 
+ },
+ "requirements": [
+     {"item": "spice", "amount": 400}
+     ],
+     "shootSound": "rocket-tank-launch",
+     "category": "turret",
+     "research": "ripple",
+     "hasItems": true
+}

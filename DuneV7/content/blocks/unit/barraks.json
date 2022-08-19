@@ -1,0 +1,44 @@
+{
+  "name": "Barracks",
+  "description": "Barracks are required to produce and train Light Infantry units."
+  "type": "UnitFactory",
+  "health": 750,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "researchCostMultiplier": 1,
+  "size": 5,
+  "consumes": {
+    "power": 3
+  },
+  "plans": [
+    {
+      "unit": "gunner-soldier",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 25
+        }
+      ],
+      "time": 600
+    },
+    {
+      "unit": "rocket-soldier",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 45
+        }
+      ]
+      "time": 800
+    }
+  ],
+  "requirements": [
+    {
+      "item": "spice",
+      "amount": 400
+    }
+  ],
+  "category": "units",
+  "research": "spore-press"
+}

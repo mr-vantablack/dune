@@ -1,0 +1,19 @@
+{
+  "type": "Radar",
+  "name": "Outpost",
+  "description": "The radar capabilities of an Outpost are used for military command purposes. An on-screen radar is activated when construction of the Outpost is complete. An Outpost is required before any new military units can be produced.",
+  "health": 1400,
+  "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+  "size": 3,
+  "fogRadius": 50,
+    "consumes": {
+    "power": 3
+  },
+  "requirements": [
+    "spice/400"
+  ],
+  "research": "vault",
+  "category": "effect"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "[purple]Sardaukar",
+  "description": "The Sarduakar are the Emperor's elite troopers. They have superior firepower and armor. Spies report the Sarduakar's armament includes a rotary cannon which fires armor piercing rounds in addition to a mobile missile launcher that fires shaped charges.",
+  "type": "mech",
+  "research": "gunners",
+  "hitSize": 10,
+  "speed": 0.8,
+  "range": 200.0,
+  "maxRange": 200.0,
+  "fogRadius": 24.0,
+  "flying": false,
+  "targetFlying": true,
+  "faceTarget": true,
+  "immunities": [
+	"status-paralyzed",
+	"status-disabled"
+  ],
+  "health": 300,
+  "weapons": [
+    {
+      "name": "sardaukar-rocket",
+      "x": 0,
+      "y": 0,
+      "reload": 300,
+      "alternate": false,
+	  "mirror": false,
+      "top": true,
+      "inaccuracy": 2,
+	  "shootX": -4,
+      "shootSound": "missile",
+      "bullet": {
+        "type": "missileBulletType",
+        "splashDamage": 75,
+        "splashDamageRadius": -1.0,
+        "bulletLifeTime": 25.0,
+		"status": "status-disabled",
+		"statusDuration": 380.0,
+        "damage": 200,
+        "speed": 4,
+        "width": 4,
+        "height": 7
+      }
+    },
+    {
+      "name": "sardaukar-gun",
+      "x": 0,
+      "y": 0,
+      "reload": 60,
+      "alternate": false,
+	  "mirror": false,
+      "top": false,
+	  "shootX": 4,
+      "inaccuracy": 0.0,
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 3.1
+      },
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "basicBulletType",
+        "bulletLifeTime": 30,
+        "damage": 45,
+        "speed": 3,
+        "width": 4,
+        "height": 6
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

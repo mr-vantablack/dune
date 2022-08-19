@@ -1,0 +1,22 @@
+{
+  "type": "CoreBlock",
+  "name": "Construction Yard",
+  "description": "A Construction Yard is required to build any new structures. It contains all materials required for building structures on Dune."
+  "health": 10000,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "size": 6,
+  "itemCapacity": 2000,
+  "unitCapModifier": 24,
+  "researchCostMultiplier": 1,
+  "unitType": "evoke",
+  "requirements": [
+    {
+      "item": "spice",
+      "amount": 5000
+    }
+  ],
+  "category": "effect",
+  "research": "spore-press"
+}

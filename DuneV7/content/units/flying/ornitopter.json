@@ -1,0 +1,70 @@
+{
+  "research": {
+    "requirements": [
+      "silicon/1300"
+    ]
+  },
+  "name": "Ornithopter",
+  "description": "The Ornithopter is a lightly armored aircraft capable of firing battle support rockets. The Ornithopter utilizes the unusual M-Flex technology which creates the distinctive \"flapping\" motion of the wings. The Ornithopter is highly manoeuvrable and the fastest aircraft on Dune."
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 112.0,
+  "maxRange": 112.0,
+  "fogRadius": 21.0,
+  "type": "flying",
+  "engineSize": 0.01,
+  "speed": 5,
+  "accel":  0.1,
+  "hitSize": 25,
+  "health": 250,
+  "drag": 0.18,
+  "flying": true,
+  "targetAir": true,
+  "faceTarget": true,
+  "weapons": [
+    {
+      "name": "ornitopter-gun",
+      "x": 0,
+      "y": 10,
+      "rotateSpeed": 3.5,
+      "top": false,
+      "reload": 120,
+      "recoil": 0.8,
+      "minWarmup": 0.3,
+      "inaccuracy": 3.0,
+      "rotate": true,
+      "mirror": true,
+      "altrnate": true,
+      "shootSound": "shoot",
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 4.0
+      },
+      "bullet": {
+        "type": "shootSmall",
+        "speed": 4,
+        "lifetime": 30,
+        "damage": 45,
+        "splashDamage": 0,
+        "splashDamageRadius": 0,
+        "width": 4,
+        "height": 8,
+        "shootEffect": "shootSmall",
+        "despawnEffect": "none",
+        "knockback": 0,
+        "fragBullets": 2,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "speed": 3.3,
+          "lifetime": 3,
+          "damage": 15.3,
+          "homingRange": 0,
+          "homingPower": 0,
+          "height": 4,
+          "width": 2,
+          "pierce": false
+        }
+      }
+    }
+  ]
+}

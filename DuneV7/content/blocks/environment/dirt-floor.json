@@ -1,0 +1,7 @@
+{
+	"name": "Земля Пустныни",
+	"type": "Floor",
+	"placeableOn": true,
+	"attributes": { "array": [ 0.75, 0, 0, 0 ] },
+	"variants": 1
+}

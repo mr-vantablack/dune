@@ -1,0 +1,41 @@
+{
+  "research": {
+    "requirements": [
+      "silicon/1300"
+    ]
+  },
+  "name": "MCV",
+  "description": "The MCV vehicle is used to find rock outcroppings suitable for erection of new installations. It can be used as a moving repair station."
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 60.0,
+  "maxRange": 60.0,
+  "fogRadius": 16.0,
+  "type": "tank",
+  "buildSpeed": 3.0,
+  "singleTarget": true
+  "speed": 0.9,
+  "hitSize": 20,
+  "health": 500,
+  "flying": false,
+  "targetAir": false,
+  "faceTarget": false,
+  "isEnemy": false,
+  "rotateSpeed": 5,
+  "weapons": [
+    {
+	"mirror": false,
+	 "x": 3.0,
+     "y": 0.0,
+	"rotate": true,
+	"type": "RepairBeamWeapon",
+    "name": "mcv-heal",
+	"targetBuildings": true,
+	"beamWidth": 0.8,
+	"repairSpeed": 1.2,
+	"bullet": {
+        "maxRange": 60.0
+	}
+    }
+  ]
+}

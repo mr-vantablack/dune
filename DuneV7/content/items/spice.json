@@ -1,0 +1,12 @@
+{
+    "type": "material",
+    "name": "Spice",
+    "description": "The most valuable resource in the galaxy.",
+    "color": "F15454",
+    "explosiveness": 0f,
+    "flammability": 0f,
+    "radioactivity": 0f,
+    "hardness": 1,
+    "cost": 0.5f
+    "alwaysUnlocked": false
+}

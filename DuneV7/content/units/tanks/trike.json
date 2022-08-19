@@ -1,0 +1,48 @@
+{
+  "research": {
+    "requirements": [
+      "silicon/1300"
+    ]
+  },
+  "name": "Trike",
+  "description": "The Trike is a lightly armored, three-wheeled, vehicle which fires armor piercing rounds. It has limited firing range, but moves rapidly.",
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 168.0,
+  "maxRange": 168.0,
+  "fogRadius": 21.0,
+  "type": "tank",
+  "speed": 1.5,
+  "hitSize": 12,
+  "health": 200,
+  "flying": false,
+  "targetAir": false,
+  "faceTarget": false,
+  "rotateSpeed": 5,
+  "weapons": [
+    {
+      "name": "trike-gun",
+      "mirror": false,
+      "x": 0,
+      "y": 0,
+      "rotateSpeed": 3.5,
+      "reload": 15,
+      "recoil": 0.03,
+      "shots": 1,
+	  "shootX": 0,
+      "inaccuracy": 3.0,
+      "rotate": true,
+      "shootSound": "pew",
+      "bullet": {
+        "type": "standardCopper",
+        "speed": 5,
+        "lifetime": 35,
+        "damage": 15,
+        "width": 5,
+        "height": 7,
+        "despawnEffect": "none",
+        "knockback": 2
+      }
+    }
+  ]
+}

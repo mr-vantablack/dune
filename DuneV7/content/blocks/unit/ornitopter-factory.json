@@ -1,0 +1,44 @@
+{
+  "type": "UnitFactory",
+  "name": "Hi-Tech Factory",
+  "description": "The High Tech Factory produces airborne units, such as the Carryalls."
+  "health": 900,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "researchCostMultiplier": 1,
+  "size": 5,
+  "consumes": {
+    "power": 5
+  },
+  "plans": [
+    {
+      "unit": "ornitopter",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 400
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "carryall",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 600
+        }
+      ],
+      "time": 2400
+    }
+  ],
+  "requirements": [
+    {
+      "item": "spice",
+      "amount": 3000
+    }
+  ],
+  "category": "units",
+  "research": "spore-press"
+}

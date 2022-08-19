@@ -1,0 +1,27 @@
+{
+  "name": "Spice Collector",
+  "description": "Harvests and processes spice.",
+   "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+  "type": "Drill",
+  "size": 4,
+  "health": 500,
+  "tier": 1,
+  "drillTime": 2000,
+  "itemCapacity": 100,
+  "hasLiquids": false,
+  "rotateSpeed": 0.9,
+  "warmupSpeed": 3,
+  "drillEffect": "mineHuge",
+  "updateEffect": "pulverizeRed",
+  "consumes": {
+    "power": 3
+  },
+  "requirements": [
+    "spice/200"
+  ],
+  "liquidBoostIntensity": 3,
+  "category": "production",
+  "research": "airblast-drill"
+}

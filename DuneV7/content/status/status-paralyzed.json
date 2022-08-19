@@ -1,0 +1,9 @@
+{
+	"name": "Paralyzed",
+	"description": "Who am I? What am I doing here?",
+	"disarm": true,
+	"healthMultiplier": 0.8,
+	"speedMultiplier": 0.0,
+	"color": "F15454",
+	"damageMultiplier": 2.0,
+}

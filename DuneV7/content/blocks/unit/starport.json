@@ -1,0 +1,64 @@
+{
+  "type": "UnitFactory",
+  "name": "Starport",
+  "description": "The Starport allows you to engage in intergalatic trading with the Merchant's Guild. They provide a trading market for vehicles and airborne units at premium rates."
+  "health": 2000,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "researchCostMultiplier": 1,
+  "size": 5,
+  "consumes": {
+    "power": 5
+  },
+  "plans": [
+    {
+      "unit": "sardaukar",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 400
+        }
+      ],
+      "time": 600
+    },
+    {
+      "unit": "saboteur",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 150
+        }
+      ],
+      "time": 600
+    },
+    {
+      "unit": "fremen",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 200
+        }
+      ],
+      "time": 460
+    },
+    {
+      "unit": "raider",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 250
+        }
+      ],
+      "time": 1000
+    }
+  ],
+  "requirements": [
+    {
+      "item": "spice",
+      "amount": 2000
+    }
+  ],
+  "category": "units",
+  "research": "spore-press"
+}

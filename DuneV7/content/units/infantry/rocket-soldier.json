@@ -1,0 +1,61 @@
+{
+  "name": "Rocket soldier",
+  "description": "Rocket soldiers are armed with 20mm Rotary Cannons firing FS rockets.",
+  "type": "mech",
+  "research": "gunners",
+  "hitSize": 10,
+  "speed": 0.6,
+  "range": 200.0,
+  "maxRange": 200.0,
+  "fogRadius": 25.0,
+  "flying": false,
+  "targetFlying": true,
+  "faceTarget": true,
+  "health": 125,
+  "immunities": [
+	"status-disabled"
+  ],
+  "weapons": [
+    {
+      "name": "rocket-soldier-gun",
+      "x": 0,
+      "y": 0,
+      "reload": 120,
+      "alternate": false,
+	  "mirror": false,
+      "top": true,
+      "inaccuracy": 5,
+	  "shootX": 4,
+      "shootSound": "missile",
+      "bullet": {
+        "type": "missileBulletType",
+        "splashDamage": 25,
+        "splashDamageRadius": 25.0,
+        "bulletLifeTime": 120,
+        "damage": 65,
+        "speed": 4,
+        "width": 4,
+        "height": 7
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

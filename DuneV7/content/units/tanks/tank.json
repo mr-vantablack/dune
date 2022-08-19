@@ -1,0 +1,52 @@
+{
+  "research": {
+    "requirements": [
+      "silicon/1300"
+    ]
+  },
+  "name": "Combat Tank",
+  "description": "The Combat Tank is a medium armored, tracked tank firing high explosive rounds. It is slower than the average tank and has limited manoeuvrability."
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": "10",
+  "type": "tank",
+  "speed": 0.9,
+  "hitSize": 15,
+  "health": 500,
+  "maxRange": 168.0,
+  "range": 168.0,
+  "fogRadius": 21.0,
+  "flying": false,
+  "targetAir": false,
+  "faceTarget": false,
+  "rotateSpeed": 4,
+  "weapons": [
+    {
+      "name": "light-tank-weapon",
+      "mirror": false,
+      "x": 0,
+      "y": 0,
+      "rotateSpeed": 3.5,
+      "reload": 120,
+      "recoil": 1.5,
+      "shots": 1,
+	  "range": 168.0,
+      "inaccuracy": 3.0,
+      "rotate": true,
+      "shootSound": "plasmaboom",
+      "bullet": {
+        "type": "standardCopper",
+        "speed": 5,
+		"lifetime": 35,
+        "damage": 150,
+        "splashDamage": 15,
+        "splashDamageRadius": 5,
+        "width": 10,
+        "height": 15,
+        "shootEffect": "shootBig",
+        "despawnEffect": "none",
+        "knockback": 2
+      }
+    }
+  ]
+}

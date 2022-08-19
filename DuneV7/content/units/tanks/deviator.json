@@ -1,0 +1,75 @@
+{
+  "research": {
+    "requirements": [
+      "silicon/1300"
+    ]
+  },
+  "name": "[lime]Deviator",
+  "description": "The Deviator was developed by House Ordos and is like a standard Missile Tank but instead has a nerve gas warhead. The gas will not damage anything but instead it can temporarily cause the unit's crew to lose consciousness, which will allow you to destroy it without any problems."
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 368.0,
+  "maxRange": 368.0,
+  "fogRadius": 25.0,
+  "type": "tank",
+  "speed": 0.9,
+  "hitSize": 20,
+  "health": 2000,
+  "immunities": [
+	"status-paralyzed"
+  ],
+  "flying": false,
+  "targetAir": false,
+  "faceTarget": false,
+  "rotateSpeed": 5,
+  "weapons": [
+    {
+      "name": "deviator-launcher",
+      "mirror": false,
+      "x": 0,
+      "y": 0,
+	  "shootY": 8.0,
+      "rotateSpeed": 1.5,
+      "minWarmup": 0.3,
+      "reload": 300,
+      "recoil": 1,
+      "shots": 1,
+      "inaccuracy": 10,
+      "rotate": true,
+      "shootSound": "rocket-tank-launch",
+	  "shoot": {
+	  "type": "ShootAlternate",
+	  "spread": 7,
+      },
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 5,
+		"status": "status-paralyzed",
+		"statusDuration": 300.0,
+		"hitColor": "54D67D",
+		"trailColor": "28785C",
+		"backColor": "28785C",
+		"frontColor": "54D67D",
+		"hitEffect": {
+			"type": "ExplosionEffect"
+			"waveColor": "28785C",
+			"smokeColor": "54D67D",
+			"sparkColor": "28785C",
+			"waveLife": 18.0,
+			"waveStroke": 12.0,
+			"waveRad": 65.0,
+			"smokeSize": 8.0,
+			"smokeRad": 43.0,
+		},
+        "lifetime": 75,
+        "splashDamage": 10,
+        "splashDamageRadius": 65.0,
+        "width": 10,
+        "height": 15,
+        "shootEffect": "shootBig",
+        "despawnEffect": "none",
+        "knockback": 2
+      }
+    }
+  ]
+}

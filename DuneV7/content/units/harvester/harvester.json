@@ -1,0 +1,39 @@
+{
+  "type": "tank",
+  "name": "Harvester",
+  "description": "The Harvester separate spice from the sand. Unusable sand is then dumped through the exhaust system. Once filled, the Harvester will automatically take raw spice to the Refinery for processing.",
+  "defaultCommand": "mine",
+  "isEnemy": false,
+  "speed": 0.55,
+  "controller": "MinerAi",
+  "lowAltitude": true,
+  "flying": true,
+  "health": 1200,
+  "hitSize": 30,
+  "range": 5,
+  "mineRange": 32,
+  "engineOffset": 5.8,
+  "itemCapacity": 700,
+  "minePower": 6.7,
+  "engineSize": 0.9,
+  "mineSpeed": 16,
+  "buildSpeed": -1.0,
+  "mineTier": 1,
+  "mineItems": [
+    "spice"
+  ],
+  "engineColor": "F3E979FF",
+  "faceTarget": true,
+  "weapon": {
+    "length": 3.0,
+    "reload": 999999999999.0,
+    "drillPower": 16,
+    "width": 2.0,
+    "shots": 1,
+    "inaccuracy": 3.0,
+    "alternate": true,
+    "ejectEffect": "none",
+    "shootSound": "shoot",
+    "bullet": "standardCopper"
+  }
+}

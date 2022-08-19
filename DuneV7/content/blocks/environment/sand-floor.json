@@ -1,0 +1,9 @@
+{
+	"name": "Песок Пустныни",
+	"type": "Floor",
+	"walkEffect": "unitDust",
+	"status": "status-sand",
+	"placeableOn": true,
+	"attributes": { "array": [ 0.75, 0, 0, 0 ] },
+	"variants": 1
+}

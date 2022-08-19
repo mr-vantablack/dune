@@ -1,0 +1,81 @@
+{
+  "research": {
+    "requirements": [
+      "silicon/1300"
+    ]
+  },
+  "name": "[blue]Sonic Tank",
+  "description": "Developed by the Atreides, this enhanced tank utilizes sound waves technology to fire a powerful blast of sonic energy at its target. The high energy frequencies break down the molecular structure of affected victims."
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 216.0,
+  "maxRange": 216.0,
+  "fogRadius": 25.0,
+  "type": "tank",
+  "speed": 1.1,
+  "hitSize": 20,
+  "health": 2000,
+  "flying": false,
+  "targetAir": false,
+  "faceTarget": false,
+  "rotateSpeed": 4,
+  "weapons": [
+    {
+      "name": "sonic-launcher",
+      "mirror": false,
+      "x": 0,
+      "y": 0,
+	  "shootY": 8.0,
+      "rotateSpeed": 1.5,
+      "minWarmup": 0.3,
+      "reload": 500,
+      "recoil": 1,
+      "shots": 1,
+      "inaccuracy": 0.0,
+      "rotate": true,
+      "shootSound": "sonic-wave",
+	  "shoot": {
+      "shots": 10,
+      "shotDelay": 1.0
+      },
+      "bullet": {
+        "type": "EmpBulletType",
+        "speed": 15,
+		"radius": 25.0,
+		"chainEffect": "chainLightning",
+        "lifetime": 15,
+		"bulletInterval": 40.0,
+        "damage": 25,
+		"hitSize": 8.0,
+		"pierce": true,
+		"pierceBuilding": true,
+		"buildingDamageMultiplier": 0.0,
+		"pierceCap": 5,
+		"pierceArmor": true,
+		"hitShake": 3.0,
+		"impact": true,
+        "splashDamage": 25.0,
+        "splashDamageRadius": 25.0,
+		"trailLength": 5,
+        "width": 80,
+        "height": 80,
+		"backColor": "6974C4",
+		"frontColor": "7A8CDC",
+        "shootEffect": {
+			"type": "WaveEffect",
+			"colorFrom": "6974C4",
+			"colorTo": "7A8CDC",
+			"sizeTo": 100.0,
+		},
+		 "hitEffect": {
+			"type": "WaveEffect",
+			"colorFrom": "6974C4",
+			"colorTo": "7A8CDC",
+			"sizeTo": 50.0,
+		},
+        "despawnEffect": "none",
+        "knockback": 5.0
+      }
+    }
+  ]
+}

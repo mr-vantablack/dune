@@ -1,0 +1,16 @@
+{
+	"type": "PowerNode",
+	"name": "Power Node",
+  "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+	"health": 50,
+	"size": 1,
+	"maxNodes": 15,
+	"laserRange": 10,
+	"requirements": [
+		"spice/10"
+	],
+	"category": "power",
+	"research": "solar-panel"
+}

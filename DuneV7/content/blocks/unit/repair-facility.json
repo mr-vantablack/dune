@@ -1,0 +1,25 @@
+{
+  "type": "repairTurret",
+  "name": "Repair Facility",
+  "description": "A Repair Facility is required to repair damaged vehicles.",
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+  "repairSpeed": 1.5,
+  "repairRadius": 45.0,
+  "beamWidth": 0.8,
+  "pulseRadius": 3,
+  "hasItems": false,
+  "hasLiquids": false,
+  "booster": false,
+  "health": 1200,
+  "size": 4,
+  "consumes": {
+    "power": 2
+  },
+  "requirements": [
+    "spice/600"
+  ],
+  "category": "units",
+  "research": "regen-projector"
+}

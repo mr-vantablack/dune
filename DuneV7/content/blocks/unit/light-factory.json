@@ -1,0 +1,45 @@
+{
+  "type": "UnitFactory",
+  "name": "Light Factory",
+  "description": "The Light Factory produces small, lightly armored, combat vehicles."
+  "health": 1000,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "researchCostMultiplier": 1,
+  "size": 5,
+  "squareSprite": false,
+  "consumes": {
+    "power": 4
+  },
+  "plans": [
+    {
+      "unit": "trike",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 50
+        }
+      ],
+      "time": 900
+    },
+    {
+      "unit": "quad1",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 75
+        }
+      ],
+      "time": 1000
+    }
+  ],
+  "requirements": [
+    {
+      "item": "spice",
+      "amount": 600
+    }
+  ],
+  "category": "units",
+  "research": "spore-press"
+}

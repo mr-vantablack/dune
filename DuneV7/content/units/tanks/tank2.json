@@ -1,0 +1,118 @@
+{
+  "research": {
+    "requirements": [
+      "silicon/1300"
+    ]
+  },
+  "name": "[red]DEVASTATOR",
+  "description": "Developed by the Harkonnen's, this tank fires dual plasma charges. It is the most powerful tank on Dune, yet it is very slow. The Devastator is nuclear powered, and may become unstable in combat."
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "type": "tank",
+  "speed": 0.4,
+  "immunities": [
+	"status-paralyzed",
+	"status-disabled"
+  ],
+  "range": 200.0,
+  "maxRange": 200.0,
+  "fogRadius": 25.0,
+  "hitSize": 30,
+  "health": 7000,
+  "flying": false,
+  "targetAir": false,
+  "faceTarget": false,
+  "rotateSpeed": 1.0,
+  "weapons": [
+    {
+      "name": "tank2-gun",
+      "mirror": false,
+	  "shoot": {
+      "shotDelay": 30.0
+      },
+      "x": 0,
+      "y": 0,
+	  "shootY": 12.0,
+	  "shootX": 7.0,
+      "rotateSpeed": 1.5,
+      "reload": 120,
+      "recoil": 1.5,
+      "shots": 1,
+      "inaccuracy": 0.1,
+      "rotate": true,
+      "shootSound": "railgun",
+      "bullet": {
+        "type": "standardCopper",
+        "speed": 7,
+		"lifetime": 30,
+        "damage": 250,
+        "splashDamage": 50,
+        "splashDamageRadius": 5,
+        "width": 10,
+        "height": 15,
+        "shootEffect": "shootBig",
+		"hitEffect": "flakExplosion",
+		"status": "status-disabled",
+        "knockback": 2
+      }
+	}
+    {
+      "name": "tank2-gun2",
+      "mirror": false,
+      "x": 0,
+      "y": 0,
+	  "status": "status-disabled",
+	  "shootY": 12.0,
+	  "shootX": -7.0,
+      "rotateSpeed": 1.5,
+      "reload": 120,
+      "recoil": 1.5,
+      "shots": 1,
+      "inaccuracy": 0.1,
+      "rotate": true,
+      "shootSound": "railgun",
+      "bullet": {
+        "type": "standardCopper",
+        "speed": 7,
+		"lifetime": 30,
+        "damage": 250,
+        "splashDamage": 50,
+        "splashDamageRadius": 5,
+        "width": 10,
+        "height": 15,
+        "shootEffect": "shootBig",
+		"hitEffect": "flakExplosion",
+		"status": "status-disabled",
+        "knockback": 2
+      }
+    }
+    {
+      "name": "tank2-nuclear",
+      "x": 0,
+      "y": 0,
+      "reload": 120,
+	  "shootCone": 180.0,
+	  "mirror": false,
+      "top": false,
+	  "controllable": false,
+	  "noAttack": true,
+	  "shootOnDeath": true,
+      "rotate": true,
+      "shootSound": "laserbig",
+      "bullet": {
+		"collidesTiles": false,
+		"collides": false,
+		"hitSound": "explosionBig",
+		"hitEffect": "pulverize",
+		"shootEffect": "blastExplosion",
+		"speed": 0.0,
+		"splashDamageRadius": 75.0,
+		"instantDisappear": true,
+		"splashDamage": 750,
+		"killShooter": true,
+		"hittable": false,
+		"collidesAir": true
+      }
+	}
+  ]
+}

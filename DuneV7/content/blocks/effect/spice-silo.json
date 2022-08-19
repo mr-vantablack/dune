@@ -1,0 +1,17 @@
+{
+  "type": "StorageBlock",
+  "name": "Spice Silo",
+   "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+  "description": "Spice Silos hold harvested spice. When the Refinery completes the conversion process, it automatically distributes the spice evenly among the silos. Note: When harvested spice quantities exceed Silo capacity, the excess will be lost.",
+  "itemCapacity": 1000,
+  "size": 3,
+  "health": 1000,
+  "coreMerge": true,
+  "requirements": [
+    "spice/200"
+  ],
+  "research": "vault",
+  "category": "effect"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "[lime]Saboteur",
+  "description": "The Saboteur is a special military unit belonging to Ordos. Trained in the art of espionage and terrorism at the Palace, a single Saboteur can destroy almost any structure or vehicle.",
+  "type": "mech",
+  "controller": "SuicideAi"
+  "research": "dagger",
+  "hitSize": 10,
+  "speed": 1.2,
+  "fogRadius": 25.0,
+  "flying": false,
+  "targetFlying": false,
+  "faceTarget": true,
+  "health": 150,
+  "immunities": [
+	"status-paralyzed",
+	"status-disabled"
+  ],
+  "weapons": [
+    {
+      "name": "saboteur-bomb",
+	  "shootOnDeath": true,
+      "x": 0,
+      "y": 0,
+      "reload": 55,
+	  "shootCone": 180.0,
+	  "mirror": false,
+      "top": false,
+      "shootSound": "shoot",
+      "bullet": {
+		"collidesTiles": false,
+		"collides": false,
+		"rangeOverride": 15.0,
+		"hitSound": "explosionBig",
+		"hitEffect": "pulverize",
+		"speed": 0.0,
+		"splashDamageRadius": 35.0,
+		"instantDisappear": true,
+		"splashDamage": 5000,
+		"killShooter": true,
+		"hittable": false,
+		"collidesAir": true
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

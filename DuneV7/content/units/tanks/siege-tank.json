@@ -1,0 +1,131 @@
+{
+  "research": {
+    "requirements": [
+      "silicon/1300"
+    ]
+  },
+  "name": "Siege-tank",
+  "description": "The Siege Tank is a tracked vehicle with dual cannons. These cannons fire armor piercing incendiary rounds, giving it more than twice the firepower of the smaller Combat tank. It has twice the armor, and is slower than most tanks."
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 168.0,
+  "maxRange": 168.0,
+  "fogRadius": 21.0,
+  "type": "tank",
+  "speed": 0.75,
+  "hitSize": 15,
+  "health": 1000,
+  "flying": false,
+  "targetAir": false,
+  "faceTarget": false,
+  "rotateSpeed": 3,
+  "weapons": [
+    {
+      "name": "siege-tank-weapon",
+      "mirror": false,
+      "x": 4,
+      "y": 0,
+      "rotateSpeed": 3.5,
+      "reload": 150,
+      "recoil": 1.5,
+      "shots": 1,
+      "inaccuracy": 3.0,
+      "rotate": true,
+      "shootSound": "plasmaboom",
+      "bullet": {
+        "type": "standardCopper",
+        "speed": 5,
+        "lifetime": 35,
+        "damage": 150,
+        "splashDamage": 15,
+        "splashDamageRadius": 5,
+        "width": 10,
+        "height": 15,
+        "shootEffect": "shootBig",
+        "despawnEffect": "none",
+        "knockback": 2
+      }
+    },
+    {
+      "name": "siege-tank-weapon3",
+      "mirror": false,
+      "x": 4,
+      "y": 0,
+      "rotateSpeed": 3.5,
+      "reload": 150,
+      "recoil": 0,
+      "shots": 1,
+      "inaccuracy": 3.0,
+      "rotate": true,
+      "shootSound": "none",
+      "bullet": {
+        "type": "standardCopper",
+		"instantDisappear": true,
+        "speed": 5,
+        "lifetime": 35,
+        "damage": 150,
+        "splashDamage": 35,
+        "splashDamageRadius": 15.0,
+        "width": 10,
+        "height": 15,
+        "shootEffect": "none",
+        "despawnEffect": "none",
+        "knockback": 2
+      }
+    },
+    {
+      "name": "siege-tank-weapon2",
+      "mirror": false,
+      "x": -4,
+      "y": 0,
+      "rotateSpeed": 3.5,
+      "reload": 150,
+      "minWarmup": 0.7,
+      "recoil": 1.5,
+      "shots": 1,
+      "inaccuracy": 3.0,
+      "rotate": true,
+      "shootSound": "plasmaboom",
+      "bullet": {
+        "type": "standardCopper",
+        "speed": 5,
+        "lifetime": 35,
+        "damage": 90,
+        "splashDamage": 35,
+        "splashDamageRadius": 15.0,
+        "width": 10,
+        "height": 15,
+        "shootEffect": "shootBig",
+        "despawnEffect": "none",
+        "knockback": 2
+      }
+    },
+    {
+      "name": "siege-tank-weapon4",
+      "mirror": false,
+      "x": -4,
+      "y": 0,
+      "rotateSpeed": 3.5,
+      "reload": 150,
+      "recoil": 0,
+      "shots": 1,
+      "inaccuracy": 3.0,
+      "rotate": true,
+      "shootSound": "none",
+      "bullet": {
+        "type": "standardCopper",
+		"instantDisappear": true,
+        "speed": 5,
+        "lifetime": 35,
+        "damage": 60,
+        "splashDamage": 15,
+        "splashDamageRadius": 5,
+        "width": 10,
+        "height": 15,
+        "shootEffect": "none",
+        "despawnEffect": "none",
+        "knockback": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+	"name": "Wind Trap",
+	"description": "The Wind Traps provide power and water to an installation. Large, aboveground ducts funnel wind underground into turbines which power the generators and humidity extractors.",
+	"size": 3,
+  "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+	"type": "solarGenerator",
+	"health": 400,
+	"category": "power",
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": false,
+	"liquidCapacity": 50,
+	"powerProduction": 2,
+	"requirements": [
+		"spice/200"
+	],
+	"research": "spore-press"
+}

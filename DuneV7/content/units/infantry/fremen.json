@@ -1,0 +1,65 @@
+{
+  "name": "[tan]Fremen",
+  "description": "The Fremen are native to Dune. Elite fighters, the Fremens' familiarity with the hostile terrain makes them a difficult adversary. Informed sources say they may soon forge an alliance with the Atreides.",
+  "type": "mech",
+  "research": "dagger",
+  "hitSize": 10,
+  "range": 152.0,
+  "maxRange": 152.0,
+  "fogRadius": 27.0,
+  "speed": 1,
+  "flying": false,
+  "targetFlying": false,
+  "faceTarget": true,
+  "immunities": [
+	"status-paralyzed",
+	"status-disabled",
+	"status-sand"
+  ],
+  "health": 250,
+  "weapons": [
+    {
+      "name": "fremen-gun",
+      "x": 0,
+      "y": 0,
+      "reload": 80,
+      "alternate": false,
+	  "mirror": false,
+      "top": false,
+	  "shootX": 4,
+      "inaccuracy": 0.0,
+      "shoot": {
+        "shots": 5,
+        "shotDelay": 3.1
+      },
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "basicBulletType",
+        "bulletLifeTime": 30,
+        "damage": 45,
+        "speed": 4,
+        "width": 4,
+        "height": 6
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

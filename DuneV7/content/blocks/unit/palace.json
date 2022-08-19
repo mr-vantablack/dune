@@ -1,0 +1,54 @@
+{
+  "type": "UnitFactory",
+  "name": "Palace",
+  "description": "Allows use of the house \"superweapons\"."
+  "researchCostMultiplier": 1,
+  "size": 7,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "health": 5000,
+  "consumes": {
+    "power": 7
+  },
+  "plans": [
+    {
+      "unit": "sonic-tank",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 0
+        }
+      ],
+      "time": 18000
+    },
+    {
+      "unit": "tank2",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 0
+        }
+      ],
+      "time": 18000
+    },
+    {
+      "unit": "deviator",
+      "requirements": [
+        {
+          "item": "spice",
+          "amount": 0
+        }
+      ],
+      "time": 18000
+    }
+  ],
+  "requirements": [
+    {
+      "item": "spice",
+      "amount": 4000
+    }
+  ],
+  "category": "units",
+  "research": "spore-press"
+}

@@ -1,0 +1,36 @@
+{
+ "type": "itemTurret",
+ "name": "Turret",
+  "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+ "description": "This stationary turret fires armor-piercing rounds at a close range. Turrets are maintained by a single tactical ground commander, who handles targeting and guidance. Turrets will fire on any enemy units within range.",
+ "targetAir": true,
+ "targetGround": true,
+ "health": 1500,
+ "size": 2,
+ "inaccuracy": 1.0,
+ "ammoPerShot": 1,
+ "reload": 70,
+ "recoil": 2,
+ "rotateSpeed": 5,
+ "shoots": 1,
+ "shotWith": 1,
+ "range": 200,
+ "maxAmmo":50,
+ "ammoTypes": {
+     "spice": {
+         "Type": "BasicBulletType",
+         "damage": 175,
+         "lifetime": 40,
+         "speed": 5
+     } 
+ },
+ "requirements": [
+     {"item": "spice", "amount": 300}
+     ],
+     "shootSound": "artillery",
+     "category": "turret",
+     "research": "ripple",
+     "hasItems": true
+}
