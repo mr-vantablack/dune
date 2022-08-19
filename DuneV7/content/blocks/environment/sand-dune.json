@@ -3,7 +3,7 @@
 	"type": "Floor",
 	"walkEffect": "unitDust",
 	"status": "status-sand",
-	"speedMultiplier": 0.7,
+	"speedMultiplier": 0.8,
 	"placeableOn": false,
 	"attributes": { "array": [ 0.75, 0, 0, 0 ] },
 	"variants": 4
